@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Current URL:", currentURL);
 
     // Logic for the product list page
-    if (currentURL.includes("shop-3-column.html")) {
+    if (currentURL.includes("index.html")) {
         console.log("Rendering products...");
         const productRow = document.getElementById("product-row");
 
